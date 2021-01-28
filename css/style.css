@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body{
+    background-repeat: no-repeat;
+    background-image:  url(../img/IMG_20200209_204633.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+header {
+    background: none;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;
+    font-weight: bold;
+    color: royalblue;
+}
+
+
+
+section {
+    margin: auto;
+    width: 80%;
+}
+
+article {
+    border: 2px solid black;
+    background: white;
+    padding: 25px;
+    margin: 30px;
+
+}
+
+article p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.slider {
+    width: 75%;
+    height: 550px;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 410%;
+
+    animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+}
